@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_d9783788df10a265b954c95e56255b92 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_d9783788df10a265b954c95e56255b92" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_d9783788df10a265b954c95e56255b92 = L.map(
+                "map_d9783788df10a265b954c95e56255b92",
+                {
+                    center: [12.899009951757739, 80.11740832637562],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 10,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_8840c9bee99c97be2ffe4e3ce7bd3175 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_d9783788df10a265b954c95e56255b92);
+        
+    
+            var marker_56f939973b125100227a2d251b2b6403 = L.marker(
+                [12.715461663647105, 79.98109619102009],
+                {}
+            ).addTo(map_d9783788df10a265b954c95e56255b92);
+        
+    
+        var popup_cd61812e885cb0776c0eadfaff76bc8b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c2208580395a378729b47ff9b2cb1700 = $(`<div id="html_c2208580395a378729b47ff9b2cb1700" style="width: 100.0%; height: 100.0%;">Cluster: (0,) Alert: cas_hmw  Time Range: Afternoon Safe Speed: 42.17 km/h Danger Speed: 58.00 km/h  Time Range: Evening Safe Speed: 37.87 km/h Danger Speed: 58.00 km/h  Time Range: Morning Safe Speed: 39.69 km/h Danger Speed: 58.00 km/h  Time Range: Night Safe Speed: 37.50 km/h Danger Speed: 57.30 km/h  </div>`)[0];
+                popup_cd61812e885cb0776c0eadfaff76bc8b.setContent(html_c2208580395a378729b47ff9b2cb1700);
+            
+        
+
+        marker_56f939973b125100227a2d251b2b6403.bindPopup(popup_cd61812e885cb0776c0eadfaff76bc8b)
+        ;
+
+        
+    
+    
+            var marker_c129c8d70f96c5dea798e71352b4d241 = L.marker(
+                [13.032628238694322, 80.23877057684462],
+                {}
+            ).addTo(map_d9783788df10a265b954c95e56255b92);
+        
+    
+        var popup_7b8d91faa8ee1caa4cf6346de3ca508c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_804fcb7883a46fff30cbe0be56203c56 = $(`<div id="html_804fcb7883a46fff30cbe0be56203c56" style="width: 100.0%; height: 100.0%;">Cluster: (1,) Alert: cas_hmw  Time Range: Afternoon Safe Speed: 31.39 km/h Danger Speed: 50.00 km/h  Time Range: Evening Safe Speed: 29.13 km/h Danger Speed: 45.00 km/h  Time Range: Morning Safe Speed: 34.78 km/h Danger Speed: 49.00 km/h  Time Range: Night Safe Speed: 22.85 km/h Danger Speed: 30.00 km/h  </div>`)[0];
+                popup_7b8d91faa8ee1caa4cf6346de3ca508c.setContent(html_804fcb7883a46fff30cbe0be56203c56);
+            
+        
+
+        marker_c129c8d70f96c5dea798e71352b4d241.bindPopup(popup_7b8d91faa8ee1caa4cf6346de3ca508c)
+        ;
+
+        
+    
+    
+            var marker_7c3fa9ff7a52543df16769ade0fd3247 = L.marker(
+                [12.879791707229456, 80.08057208868433],
+                {}
+            ).addTo(map_d9783788df10a265b954c95e56255b92);
+        
+    
+        var popup_7f8f6928dc899286bf96b4642b689723 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2fcd3775436d1a9a2a5d9a78c9d7e36a = $(`<div id="html_2fcd3775436d1a9a2a5d9a78c9d7e36a" style="width: 100.0%; height: 100.0%;">Cluster: (2,) Alert: cas_hmw  Time Range: Afternoon Safe Speed: 41.79 km/h Danger Speed: 56.50 km/h  Time Range: Evening Safe Speed: 37.11 km/h Danger Speed: 54.00 km/h  Time Range: Morning Safe Speed: 39.17 km/h Danger Speed: 57.00 km/h  Time Range: Night Safe Speed: 39.73 km/h Danger Speed: 57.00 km/h  </div>`)[0];
+                popup_7f8f6928dc899286bf96b4642b689723.setContent(html_2fcd3775436d1a9a2a5d9a78c9d7e36a);
+            
+        
+
+        marker_7c3fa9ff7a52543df16769ade0fd3247.bindPopup(popup_7f8f6928dc899286bf96b4642b689723)
+        ;
+
+        
+    
+    
+            var marker_544e4f27fa1937d30b52b0f90d26cb50 = L.marker(
+                [12.554881664470072, 79.9034208110928],
+                {}
+            ).addTo(map_d9783788df10a265b954c95e56255b92);
+        
+    
+        var popup_60dffa59430e690573c378642da22b9d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_73778420fe4861bfd0d804d067af89d8 = $(`<div id="html_73778420fe4861bfd0d804d067af89d8" style="width: 100.0%; height: 100.0%;">Cluster: (3,) Alert: cas_hmw  Time Range: Afternoon Safe Speed: 52.00 km/h Danger Speed: 58.00 km/h  Time Range: Evening Safe Speed: 48.68 km/h Danger Speed: 58.00 km/h  Time Range: Morning Safe Speed: 46.18 km/h Danger Speed: 58.00 km/h  Time Range: Night Safe Speed: 24.00 km/h Danger Speed: 24.00 km/h  </div>`)[0];
+                popup_60dffa59430e690573c378642da22b9d.setContent(html_73778420fe4861bfd0d804d067af89d8);
+            
+        
+
+        marker_544e4f27fa1937d30b52b0f90d26cb50.bindPopup(popup_60dffa59430e690573c378642da22b9d)
+        ;
+
+        
+    
+    
+            var marker_06065e79b399ef3f0b0c18e5aa7efd02 = L.marker(
+                [12.961885274198718, 80.14721339407052],
+                {}
+            ).addTo(map_d9783788df10a265b954c95e56255b92);
+        
+    
+        var popup_b577d2277010701e833f8336d95ac03c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_17a5b2653dfac654cb29fcbcfe58a7da = $(`<div id="html_17a5b2653dfac654cb29fcbcfe58a7da" style="width: 100.0%; height: 100.0%;">Cluster: (4,) Alert: cas_hmw  Time Range: Afternoon Safe Speed: 35.85 km/h Danger Speed: 54.50 km/h  Time Range: Evening Safe Speed: 33.13 km/h Danger Speed: 52.90 km/h  Time Range: Morning Safe Speed: 36.24 km/h Danger Speed: 52.00 km/h  Time Range: Night Safe Speed: 42.50 km/h Danger Speed: 54.90 km/h  </div>`)[0];
+                popup_b577d2277010701e833f8336d95ac03c.setContent(html_17a5b2653dfac654cb29fcbcfe58a7da);
+            
+        
+
+        marker_06065e79b399ef3f0b0c18e5aa7efd02.bindPopup(popup_b577d2277010701e833f8336d95ac03c)
+        ;
+
+        
+    
+</script>
+</html>

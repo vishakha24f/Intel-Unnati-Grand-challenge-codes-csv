@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_25ea0108acb12c9a6ec41daa88458858 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_25ea0108acb12c9a6ec41daa88458858" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_25ea0108acb12c9a6ec41daa88458858 = L.map(
+                "map_25ea0108acb12c9a6ec41daa88458858",
+                {
+                    center: [12.899009951757739, 80.11740832637562],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 10,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_70d3ce589bf45ab570dc41a0041c88df = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_25ea0108acb12c9a6ec41daa88458858);
+        
+    
+            var marker_4b1c5dd134b681a9e2985772a0771576 = L.marker(
+                [12.715461663647105, 79.98109619102009],
+                {}
+            ).addTo(map_25ea0108acb12c9a6ec41daa88458858);
+        
+    
+        var popup_0a689b22cf05aab8b7d6a2f0152e83bd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3c1fa199a5b080ecb2e150cbf99e6b57 = $(`<div id="html_3c1fa199a5b080ecb2e150cbf99e6b57" style="width: 100.0%; height: 100.0%;">Cluster: (0,) Alert: cas_pcw  Time Range: Afternoon Safe Speed: 32.12 km/h Danger Speed: 57.80 km/h  Time Range: Evening Safe Speed: 23.93 km/h Danger Speed: 57.00 km/h  Time Range: Morning Safe Speed: 22.93 km/h Danger Speed: 44.80 km/h  </div>`)[0];
+                popup_0a689b22cf05aab8b7d6a2f0152e83bd.setContent(html_3c1fa199a5b080ecb2e150cbf99e6b57);
+            
+        
+
+        marker_4b1c5dd134b681a9e2985772a0771576.bindPopup(popup_0a689b22cf05aab8b7d6a2f0152e83bd)
+        ;
+
+        
+    
+    
+            var marker_19a1f81727a55575ae4874fa6bdad450 = L.marker(
+                [13.032628238694322, 80.23877057684462],
+                {}
+            ).addTo(map_25ea0108acb12c9a6ec41daa88458858);
+        
+    
+        var popup_210f6c177c5c4104fa646a7a4cfc5c4e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bb091a9cb0f1a402aabfd7e5af37bd09 = $(`<div id="html_bb091a9cb0f1a402aabfd7e5af37bd09" style="width: 100.0%; height: 100.0%;">Cluster: (1,) Alert: cas_pcw  Time Range: Afternoon Safe Speed: 20.20 km/h Danger Speed: 49.20 km/h  Time Range: Evening Safe Speed: 15.62 km/h Danger Speed: 27.60 km/h  Time Range: Morning Safe Speed: 19.30 km/h Danger Speed: 31.00 km/h  </div>`)[0];
+                popup_210f6c177c5c4104fa646a7a4cfc5c4e.setContent(html_bb091a9cb0f1a402aabfd7e5af37bd09);
+            
+        
+
+        marker_19a1f81727a55575ae4874fa6bdad450.bindPopup(popup_210f6c177c5c4104fa646a7a4cfc5c4e)
+        ;
+
+        
+    
+    
+            var marker_6bd04c3e743ed14d8aa79dc3a1ff847f = L.marker(
+                [12.879791707229456, 80.08057208868433],
+                {}
+            ).addTo(map_25ea0108acb12c9a6ec41daa88458858);
+        
+    
+        var popup_a6a6a32063849e91ad00fb7727954b64 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8d36571b0e8704a0279c180b566e27f5 = $(`<div id="html_8d36571b0e8704a0279c180b566e27f5" style="width: 100.0%; height: 100.0%;">Cluster: (2,) Alert: cas_pcw  Time Range: Afternoon Safe Speed: 9.79 km/h Danger Speed: 19.00 km/h  Time Range: Evening Safe Speed: 21.00 km/h Danger Speed: 47.00 km/h  Time Range: Morning Safe Speed: 13.33 km/h Danger Speed: 35.10 km/h  Time Range: Night Safe Speed: 28.00 km/h Danger Speed: 28.00 km/h  </div>`)[0];
+                popup_a6a6a32063849e91ad00fb7727954b64.setContent(html_8d36571b0e8704a0279c180b566e27f5);
+            
+        
+
+        marker_6bd04c3e743ed14d8aa79dc3a1ff847f.bindPopup(popup_a6a6a32063849e91ad00fb7727954b64)
+        ;
+
+        
+    
+    
+            var marker_290dbd1578cf192b3a56f4c0eb5b8242 = L.marker(
+                [12.554881664470072, 79.9034208110928],
+                {}
+            ).addTo(map_25ea0108acb12c9a6ec41daa88458858);
+        
+    
+        var popup_ecbbf41e78a5ab70aa718067df3a2172 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bf3de708ebbd865f80ae9cde06b91ef1 = $(`<div id="html_bf3de708ebbd865f80ae9cde06b91ef1" style="width: 100.0%; height: 100.0%;">Cluster: (3,) Alert: cas_pcw  Time Range: Evening Safe Speed: 16.45 km/h Danger Speed: 33.80 km/h  Time Range: Morning Safe Speed: 29.36 km/h Danger Speed: 53.30 km/h  Time Range: Night Safe Speed: 50.00 km/h Danger Speed: 50.00 km/h  </div>`)[0];
+                popup_ecbbf41e78a5ab70aa718067df3a2172.setContent(html_bf3de708ebbd865f80ae9cde06b91ef1);
+            
+        
+
+        marker_290dbd1578cf192b3a56f4c0eb5b8242.bindPopup(popup_ecbbf41e78a5ab70aa718067df3a2172)
+        ;
+
+        
+    
+    
+            var marker_59e8bdae8e426b2798755a0cd4763dd8 = L.marker(
+                [12.961885274198718, 80.14721339407052],
+                {}
+            ).addTo(map_25ea0108acb12c9a6ec41daa88458858);
+        
+    
+        var popup_4f7f6a753cf32ba13595b080e3e6a7b9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dd4a445e690ef67b221b418d63222246 = $(`<div id="html_dd4a445e690ef67b221b418d63222246" style="width: 100.0%; height: 100.0%;">Cluster: (4,) Alert: cas_pcw  Time Range: Afternoon Safe Speed: 21.81 km/h Danger Speed: 37.00 km/h  Time Range: Evening Safe Speed: 17.80 km/h Danger Speed: 32.10 km/h  Time Range: Morning Safe Speed: 21.54 km/h Danger Speed: 36.60 km/h  </div>`)[0];
+                popup_4f7f6a753cf32ba13595b080e3e6a7b9.setContent(html_dd4a445e690ef67b221b418d63222246);
+            
+        
+
+        marker_59e8bdae8e426b2798755a0cd4763dd8.bindPopup(popup_4f7f6a753cf32ba13595b080e3e6a7b9)
+        ;
+
+        
+    
+</script>
+</html>
